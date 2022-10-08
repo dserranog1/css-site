@@ -5,12 +5,19 @@ body {
   margin: 0;
 }
 
-
 header figure {
   display: table;
   padding: 5px;
 }
 
+header nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a:hover {
+  color: #f9faf8 ;
+}
 
 header img {
   width: 8rem;
@@ -24,7 +31,8 @@ header figcaption {
   text-align: left;
 }
 
-.content, header {
+.content,
+header {
   width: 90%;
 }
 
@@ -128,7 +136,7 @@ header li {
   background-color: #e5e7eb;
 }
 
-#inspiring-quote-content { 
+#inspiring-quote-content {
   margin: auto;
   padding: 2.5rem;
 }
@@ -203,5 +211,3 @@ footer {
   padding: 2rem;
   color: #e5e7eb;
 }
-
-
